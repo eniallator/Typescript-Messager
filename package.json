@@ -1,0 +1,31 @@
+{
+  "name": "typescript-messager",
+  "version": "1.0.0",
+  "description": "A typescript messager example project",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eniallator/Typescript-Messager.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eniallator/Typescript-Messager/issues"
+  },
+  "homepage": "https://github.com/eniallator/Typescript-Messager#readme",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@types/http-server": "^0.10.0",
+    "@types/node": "^13.7.0",
+    "@types/socket.io": "^2.1.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "typescript": "^3.7.5"
+  }
+}
